@@ -1,0 +1,13 @@
+n=int(input())
+fact=0
+while n>0:
+    fact=fact*n
+    n-=1
+print(fact)
+'''fabnacci series'''
+n=int(input())
+a,b=0,1
+while n>0:
+  print(a,end=" ")
+  a,b=b,a+b
+
