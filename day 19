@@ -1,0 +1,6 @@
+arr=list(map(int,input().split())
+i=int(input("enter:"))
+if i in arr:
+    print("Found")
+else:
+    print("Not Found")
