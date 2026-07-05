@@ -1,0 +1,11 @@
+s=input().lower()
+vowels=0
+constants=0
+for i in s:
+   if i.isalpha():
+       if i in "aeiou":
+           vowels+=1
+        else:
+            constants+=1
+print(vowels,constants)
+              
