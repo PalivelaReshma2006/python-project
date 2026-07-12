@@ -1,0 +1,8 @@
+arr=list(map(int,input().split())
+n=len(arr)+1
+// for i in range (1,n+1):
+//          if i not in arr:
+//              print(i)
+e=n*(n+1)//2
+a=sum(arr)
+print(e-a)
