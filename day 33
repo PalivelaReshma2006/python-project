@@ -1,0 +1,8 @@
+arr=list(map(int,intput().split())
+res=[]
+for i in arr:
+    if i!=0:
+       res.append(i)
+while len(res)<len(arr):
+         res.append(0)
+print(res)
