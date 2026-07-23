@@ -1,0 +1,7 @@
+arr=list(map(int,input().split()))
+duplicates=[]
+for num in arr:
+    if arr.count(num)>1:
+          duplicates.append(num)
+print(list(set(duplicates)))
+             
