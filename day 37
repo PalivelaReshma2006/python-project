@@ -1,0 +1,21 @@
+a = int(input("Enter side 1: "))
+b = int(input("Enter side 2: "))
+c = int(input("Enter side 3: "))
+
+if a > b and a > c:
+    largest = a
+    x = b
+    y = c
+elif b > a and b > c:
+    largest = b
+    x = a
+    y = c
+else:
+    largest = c
+    x = a
+    y = b
+
+if x*x + y*y == largest*largest:
+    print("Right angled triangle")
+else:
+    print("Not a right angled triangle")
