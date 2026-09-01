@@ -1,0 +1,12 @@
+def isPalindrome(s):
+    s = ''.join(ch.lower() for ch in s if ch.isalnum())
+
+    return s == s[::-1]
+# Taking input
+s = input()
+
+# Calling the function
+result = isPalindrome(s)
+
+# Printing the result
+print(result)
